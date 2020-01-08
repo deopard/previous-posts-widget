@@ -1,0 +1,45 @@
+/*
+ * Remember recent posts widget
+ */
+.previous-posts-widget__title {
+  font-size: 23px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.previous-posts-widget__post {
+  height: 62px;
+  margin-bottom: 26px;
+  position: relative;
+}
+
+.previous-posts-widget__post__image {
+  width: 62px;
+  height: 62px;
+  float: left;
+  border-radius: 6px;
+}
+
+.previous-posts-widget__post__link {
+  text-decoration: none;
+  box-shadow: none;
+}
+
+.previous-posts-widget__post__title {
+  font-size: 17px;
+  line-height: 1.29;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 74px;
+}
+
+.previous-posts-widget__post__date {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #707070;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 74px;
+}
